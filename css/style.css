@@ -23,10 +23,8 @@ input, button, textarea, select {
     font-family: inherit;
 }
 
-.heading-title h1 {
-    margin: 0;
-    text-align: center;
-    padding: 5px 15px;
+body {
+    background-color: #eee;
 }
 
 .main {
@@ -34,7 +32,7 @@ input, button, textarea, select {
     max-width: 100%;
     margin: 0 auto;
     min-height: 100vh;
-    background-color: #ccc;
+    background-color: #fff;
 }
 
 .nav {
@@ -56,6 +54,15 @@ input, button, textarea, select {
     text-decoration: none;
     padding: 0 15px;
     display: block;
+}
+
+.content {
+    padding: 15px;
+}
+
+.heading-title h1 {
+    text-align: center;
+    font-size: 1.5em;
 }
 
 .highlight {
