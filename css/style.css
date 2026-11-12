@@ -2,11 +2,7 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-}
-
-b, strong {
+h1, h2, h3, h4, h5, h6, b, strong {
     font-weight: bold;
 }
 
@@ -27,42 +23,50 @@ body {
     background-color: #eee;
 }
 
-.main {
+.container {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
-    min-height: 100vh;
-    background-color: #fff;
 }
 
 .nav {
-    background: #333;
-    height: 3em;
-    line-height: 3em;
+    background: #455bc4;
 }
 
 .nav ul li {
     display: inline-block;
 }
 
-.nav ul li:hover a {
-    background-color: #3d3d3d;
+.nav-list {
+    font-size: 0;
 }
 
 .nav ul li a {
     color: #fff;
     text-decoration: none;
-    padding: 0 15px;
-    display: block;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.nav ul li > a:hover,
+.nav ul li.active > a {
+    background-color: #fff;
+    color: #000;
 }
 
 .content {
+    background-color: #fff;
+    min-height: 100vh;
     padding: 15px;
 }
 
-.heading-title h1 {
+.heading-title {
     text-align: center;
-    font-size: 1.5em;
+}
+
+.heading-title h1 {
+    font-size: 1.5rem;
 }
 
 .highlight {
