@@ -2,6 +2,27 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+i, em {
+    font-style: italic;
+}
+
+u {
+    text-decoration: underline;
+}
+
+input, button, textarea, select {
+    font-style: inherit;
+    font-family: inherit;
+}
+
 .heading-title h1 {
     margin: 0;
     text-align: center;
