@@ -21,7 +21,7 @@ input, button, textarea, select {
 
 body {
     background-color: #eee;
-    font-family: system-ui;
+    font-family: system-ui, sans-serif;
     line-height: 1.6;
 }
 
