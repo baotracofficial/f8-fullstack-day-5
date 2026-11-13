@@ -21,6 +21,8 @@ input, button, textarea, select {
 
 body {
     background-color: #eee;
+    font-family: system-ui;
+    line-height: 1.6;
 }
 
 .container {
@@ -44,7 +46,7 @@ body {
 .nav ul li a {
     color: #fff;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     display: inline-block;
     font-size: 1rem;
 }
@@ -58,7 +60,7 @@ body {
 .content {
     background-color: #fff;
     min-height: 100vh;
-    padding: 15px;
+    padding: 0.9375rem;
 }
 
 .heading-title {
@@ -71,6 +73,62 @@ body {
 
 .highlight {
     background-color: yellow;
-    padding: 0 5px;
-    border-radius: 3px;
+    padding: 0 0.3125rem;
+    border-radius: 5px;
 }
+
+/*== CV ==*/
+.main-cv .container {
+    width: 876px;
+}
+
+.main-cv .content {
+    padding: 3.125rem 5rem;
+    margin: 2.25rem 0;
+    box-shadow: 20px 30px 20px 0 #00000033;
+}
+
+.cv-section {
+    margin-top: 1.25rem;
+    text-align: justify;
+}
+
+.cv-section-title {
+    border-bottom: 2px solid;
+    margin-bottom: 1rem;
+}
+
+.cv-item {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}
+
+.cv-item-header {
+    font-size: 0;
+    margin-bottom: 0.75rem;
+}
+
+.cv-item-title,
+.cv-item-date {
+    font-size: 1rem;
+}
+
+.cv-item-list li p {
+    padding-left: 0.625rem;
+}
+
+.cv-item-header span {
+    display: inline-block;
+}
+
+.cv-item ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+}
+
+.full-width {
+    display: inline-block;
+    width: 100%;
+}
+
+/*== Menu ==*/
