@@ -14,7 +14,110 @@
     <body>
         <!-- Start main-form -->
         <div class="main-form">
-            <h1>F8 Fullstack - Homework 05 - Form</h1>
+
+            <form action="" class="form">
+                <h1 class="heading-form">Register</h1>
+                <!-- Start form-group -->
+                <div class="form-group">
+                    <label for="display-name" class="form-label">Display Name</label>
+                    <input class="form-input" type="text" id="display-name" name="display_name" placeholder="Display name.." />
+                </div><!-- End form-group -->
+
+                <!-- Start form-group -->
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input class="form-input" type="email" id="email" name="email" placeholder="Email.." autocomplete="email" />
+                </div><!-- End form-group -->
+
+                <!-- Start form-group -->
+                <div class="form-group">
+                    <label for="phone-number" class="form-label">Phone number</label>
+                    <input class="form-input" type="tel" id="phone-number" name="phone_number" placeholder="Phone number.." />
+                </div><!-- End form-group -->
+
+                <!-- Start form-group -->
+                <div class="form-group">
+                    <label for="password" class="form-label">Password</label>
+                    <input class="form-input" type="password" id="password" name="password" placeholder="Password.." />
+                </div><!-- End form-group -->
+
+                <!-- Start form-group -->
+                <div class="form-group">
+                    <label for="confirm-password" class="form-label">Confirm password</label>
+                    <input class="form-input" type="password" id="confirm-password" name="confirm_password" placeholder="Confirm password.." />
+                </div><!-- End form-group -->
+
+                <!-- Start form-group -->
+                <div class="form-group">
+                    <label class="form-label">Gender</label>
+
+                    <label>
+                        <input type="radio" name="gender" value="male" checked />
+                        Male
+                    </label>
+
+                    <label>
+                        <input type="radio" name="gender" value="female" />
+                        Female
+                    </label>
+
+                    <label>
+                        <input type="radio" name="gender" value="other" />
+                        Other
+                    </label>
+                </div><!-- End form-group -->
+
+                <!-- Start form-group -->
+                <div class="form-group">
+                    <label for="date-of-birth" class="form-label">Date of Birth</label>
+                    <input class="form-input" type="date" name="date_of_birth" id="date-of-birth" />
+                </div><!-- End form-group -->
+
+                <!-- Start form-group -->
+                <div class="form-group">
+                    <label for="address" class="form-label">Address</label>
+                    <input class="form-input" type="text" id="address" name="address" placeholder="Address.." />
+                </div><!-- End form-group -->
+
+                <!-- Start form-group -->
+                <div class="form-group">
+                    <label for="profile-picture" class="form-label">Profile Picture (Avatar)</label>
+                    <label for="profile-picture">
+                        <img class="avatar-img" src="./img/img-avata.png" alt="Default profile avatar">
+                    </label>
+                    <input type="file" accept="image/*" name="profile_picture" id="profile-picture" hidden="" />
+                </div><!-- End form-group -->
+
+                <!-- Start form-group -->
+                <div class="form-group">
+                    <label class="form-label">Communication Preferences</label>
+
+                    <div class="form-vertical">
+                        <label>
+                            <input type="checkbox" name="communication_preferences[]" value="subscribe-to-newsletter" />
+                            Subscribe to Newsletter
+                        </label>
+
+
+                        <label>
+                            <input type="checkbox" name="communication_preferences[]" value="receive-promotional-emails" />
+                            Receive Promotional Emails
+                        </label>
+
+
+                        <label>
+                            <input type="checkbox" name="communication_preferences[]" value="get-product-updates" />
+                            Get Product Updates
+                        </label>
+                    </div>
+
+                </div><!-- End form-group -->
+
+                <!-- Start form-group -->
+                <div class="form-group form-footer">
+                    <button type="submit" class="btn submit-btn">Register</button>
+                </div><!-- End form-group -->
+            </form>
         </div><!-- Start main-form -->
     </body>
 </html>

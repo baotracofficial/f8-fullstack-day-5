@@ -17,6 +17,8 @@ u {
 input, button, textarea, select {
     font-style: inherit;
     font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
 }
 
 body {
@@ -160,4 +162,88 @@ body {
 .nav .sub-menu ul li,
 .nav .sub-menu ul li a {
     display: block;
+}
+
+/*== Form ==*/
+
+.main-form {
+    padding: 50px 0;
+    background: linear-gradient(45deg, rgba(66, 183, 245, 0.8) 0%, rgba(66, 245, 189, 0.4) 100%);
+}
+.form {
+    margin: 0 auto;
+    border-radius: 8px;
+    max-width: 400px;
+    background-color: #2a2b38;
+    padding: 1.875rem;
+}
+
+.heading-form {
+    font-size: 1.5rem;
+    color: #c4c3ca;
+}
+
+.form-label {
+    margin: 0.75rem 0 0.3rem;
+    display: block;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    color: #c4c3ca;
+    background-color: #1f2029;
+}
+
+.form label {
+    color: #c4c3ca;
+}
+
+.avatar-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.form-vertical label {
+    display: block;
+}
+
+.form .heading-form {
+    text-align: center;
+}
+
+.form .submit-btn {
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 3px 15px;
+    border-radius: 3px;
+    min-width: 100px;
+    text-align: center;
+    border: none;
+    background: #ffeba7;
+    text-decoration: none;
+    color: #102770;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.form-footer {
+    margin-top: 2rem;
+}
+
+.form-footer .submit-btn {
+    padding: 13px 20px;
 }
