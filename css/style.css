@@ -55,8 +55,7 @@ body {
 }
 
 .nav ul li:hover > a,
-.nav ul li.active > a,
-.nav ul li:target > a {
+.nav ul li.active > a {
     background-color: #fff;
     color: #000;
 }
