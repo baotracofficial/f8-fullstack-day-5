@@ -147,6 +147,7 @@ body {
 .nav .sub-menu ul {
     position: absolute;
     min-width: 268px;
+    max-width: 320px;
     background: #445bc4;
 }
 
