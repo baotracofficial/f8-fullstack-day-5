@@ -146,7 +146,7 @@ body {
 
 .nav .sub-menu ul {
     position: absolute;
-    width: 200px;
+    min-width: 268px;
     background: #445bc4;
 }
 
@@ -246,3 +246,31 @@ body {
 .form-footer .submit-btn {
     padding: 13px 20px;
 }
+
+/*== MENU ENHANCED ==*/
+.nav-list > .sub-menu > a::after {
+    content: "\25BC";
+    margin-left: 10px;
+}
+
+.nav .nav-list > .sub-menu:hover > a::after, .nav .nav-list > .sub-menu.active > a::after {
+    content: "\25B2"
+}
+
+.sub-menu > ul > li a::before {
+    content: "\2022";
+    padding-right: 10px;
+}
+
+.sub-menu > ul > li:hover a::before {
+    color: red;
+}
+
+.sub-menu > ul > li:not(:last-child) > a {
+    border-bottom: 1px solid #ffffff2b;
+}
+
+.nav .nav-list > li:not(:first-child) > a {
+    border-left: 1px solid #ffffff2b;
+}
+/*== END MENU ENHANCED ==*/
